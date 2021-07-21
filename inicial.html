@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Portal do Aluno Casdinho</title>
+        <link rel='stylesheet' href="styles.css"/>
+        <link rel='stylesheet' href="inicial.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+        <script type="text/javascript" src="require.js"></script>
+        <script type="text/javascript" src="spreadsheet.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class='menu-container'>
+            <header>
+                <img src='CASDinho/logo-casd-branca.png' width="700px"/>
+            </header>
+            <div>
+                <form action='' method='get' class='login-form'>
+                    <div class='form-row'>
+                        <div class='input-block'>
+                            <label for='matricula'>Matrícula</label>
+                            <input id='matricula' name='matricula' type='text'/>
+                        </div>
+                        <div class='input-block'>
+                            <label for='senha'>Senha</label>
+                            <input id='senha' name='senha' type='password'/>
+                        </div>
+                    </div>
+                    <button><img src='CASDinho/entrar.png' width="90px"/>Entrar</button>
+                </form>
+                <a href='recuperarsenha.html'>Esqueceu a senha?</a>
+            </div>
+            <script src="events.js"></script>
+            <script>
+            var formulario = document.querySelector('.login-form');
+            var matricula = document.getElementById('matricula');
+            var senha = document.getElementById('senha');
+            formulario.onsubmit = login_validate(formulario, senha)
+
+            </script>
+        </div>
+        <div class='duvidas-container'>
+            <a class='duvidas' href='duvidas.html'> <img src='CASDinho/duvidas.png' href='duvidas.html' width="200px"/> Dúvidas Frequentes</a>
+        </div>
+        <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    </body>
+</html>

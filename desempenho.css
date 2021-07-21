@@ -1,0 +1,55 @@
+* {
+    background-color: #3192B3;
+}
+
+.aluno {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aluno h1 {
+    width: 100%;
+}
+
+.conteudo {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.aluno .blocos-dados {
+    width: 50%;
+    justify-content: center;
+}
+
+.frente {
+    width: 54%;
+}
+
+.frente p {
+    text-align: left;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+.acertos {
+    width: 26%;
+    padding-bottom: 20px;
+}
+
+.erros {
+    width: 20%;
+    padding-bottom: 20px;
+}
+
+
+.frente, .acertos, .erros {
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    justify-content: space-between;
+    border: thick double white;
+}

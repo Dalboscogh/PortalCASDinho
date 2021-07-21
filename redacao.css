@@ -1,0 +1,29 @@
+* {
+    background-color: #706F6F;
+}
+
+.cabecario p {
+    width: 14.285%;
+    height: 70px;
+}
+
+.bloco-principal .blocos-dados div {
+    width: 14.285%;
+}
+
+.nota-geral {
+    border-right: none;
+    border-left: thick double white;
+}
+
+.ranking {
+    border-right: thick double white;
+}
+
+.ling {
+    border-right: thick double white;
+}
+
+.nota-media {
+    border-left: thick double white;
+}

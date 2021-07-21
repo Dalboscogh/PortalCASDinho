@@ -1,0 +1,23 @@
+* {
+    background-color: #49BED8;
+}
+
+.bloco-principal .blocos-dados div {
+    width: 12.5%;
+}
+
+.nota-geral {
+    border-right: none;
+}
+
+.ranking {
+}
+
+.ling {
+    border-right: thick double white;
+}
+
+.testinho {
+    border-left: thick double white;
+    border-right: thick double white;
+}

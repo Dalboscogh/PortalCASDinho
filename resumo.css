@@ -1,0 +1,50 @@
+* {
+    background-color: #3192B3;
+}
+
+article {
+    margin-bottom: 100px;
+    width: 90%;
+}
+
+.blocos-dados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: thick double white;
+    margin-top: 30px;
+    padding: 15px 0px 25px 25px;
+}
+
+.bloco-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bloco-principal .blocos-dados{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+.nome {
+    width: 65%;
+}
+
+.dn {
+    width: 35%;
+}
+
+.matricula {
+    width: 65%;
+}
+
+.turma {
+    width: 35%;
+}
+
+footer {
+    margin-bottom: 60px;
+}

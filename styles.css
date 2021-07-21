@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #B1DDE8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+
+.menu-container {
+    color: #fff;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-row {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.input-block {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.input-block input{
+    background-color: #FFFFFF;
+    border: 3px solid gray;
+    border-radius: 5px;
+    padding: 7px;
+    width: 70%;
+}
+
+label {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+.entrar {
+    height: auto;
+    margin-left: 30px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button:focus {
+    background-color: green;
+}
+
+a {
+    margin-bottom: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.duvidas-container {
+    margin-bottom: 18px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.duvidas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

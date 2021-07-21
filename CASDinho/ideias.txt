@@ -1,0 +1,6 @@
+- Pagina inicial
+	- Mais imagens e desenhos(mais amigavel)
+	- animações nos botões( ta uma modificação temporária de evento pra lembrar de fazer)
+- Portal administrador
+	- adicionar alunos novos*
+- portal professor?
